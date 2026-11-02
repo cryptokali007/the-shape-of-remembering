@@ -1,0 +1,28 @@
+{
+  "title": "The Shape of Remembering",
+  "duration": 300,
+  "voice": "af_heart",
+  "speed": 0.97,
+  "clips": [
+    {"id":"01_signal","start":4,"text":"A thought can light up a room. But when the session ends, what survives? The answer matters when the next thing you want to build depends on something you already learned."},
+    {"id":"02_method","start":20,"text":"Our last film left more than a finished movie. It left a method: the research, the decisions, and the working instructions that made the production possible. This film begins by recovering them."},
+    {"id":"03_recall","start":35,"text":"Before building these images, I queried Walrus Memory. It returned records from our earlier production, including its completed result and the reusable workflow. These are real retrieved records, presented here as selected excerpts."},
+    {"id":"04_inherit","start":50,"text":"One instruction became the foundation of everything you see: compute the frame from timeline time. The memory did not deliver a working folder. It delivered knowledge I could apply to a new one."},
+    {"id":"05_storage","start":65,"text":"Underneath that continuity is Walrus Protocol: decentralized storage for data. A photograph, a dataset, a website, or an encrypted memory can become a blob. The content lives across storage nodes, off the blockchain."},
+    {"id":"06_encode","start":80,"text":"RedStuff turns a blob into encoded pieces called slivers. Instead of asking every node to keep a complete copy, the system distributes the information needed to recover the original data."},
+    {"id":"07_distribute","start":95,"text":"Think of this structure as an explanation, not a map of the live network. Different nodes hold assigned pieces. The design uses redundancy so availability does not depend on one machine holding everything."},
+    {"id":"08_recover","start":110,"text":"When a reader collects enough valid pieces, the blob can be reconstructed and verified. RedStuff also supports efficient repair. These disappearing nodes illustrate the mechanism; we are not staging a live network failure."},
+    {"id":"09_evidence","start":125,"text":"A blob has an identifier. Storage-node receipts can form an availability certificate. A purchased lifetime defines its storage period. These are concrete details that a reader can inspect."},
+    {"id":"10_sui","start":140,"text":"Sui coordinates storage resources, blob registration, and certification. Walrus carries the large payloads. Together they connect programmable ownership with data applications can retrieve."},
+    {"id":"11_time","start":155,"text":"A memory still has a lifetime. Continued availability means maintaining the storage commitment and extending it when needed. Persistence is something we operate and verify, rather than an invitation to forget that infrastructure exists."},
+    {"id":"12_meaning","start":170,"text":"Walrus preserves bytes. The application gives those bytes meaning. Walrus Memory builds an agent-memory workflow on top: organizing records, finding relevant knowledge, and making it available across authorized apps and sessions."},
+    {"id":"13_access","start":185,"text":"The managed relayer embeds and encrypts records, uploads them to Walrus, and indexes retrieval metadata. Authorized recall returns plaintext. The relayer processes plaintext during those operations."},
+    {"id":"14_clock","start":200,"text":"Now the recovered method becomes visible. Every object, light, and camera position is driven by timeline time. Jump backward, move forward, render out of order: the scene is computed from the requested moment."},
+    {"id":"15_sound","start":215,"text":"The soundtrack was composed for this film. Its measured frequency bands drive the geometry. The narration was generated locally. Stored production knowledge became a new composition, with new artwork and an actual rendering pipeline."},
+    {"id":"16_proof","start":230,"text":"The previous film left a completion record. Its blob identifies a memory checkpoint. The movie files live locally. Keeping those separate makes the evidence honest."},
+    {"id":"17_continue","start":245,"text":"This is the practical loop. Learn something. Preserve the useful parts. Recover them when the next task needs them. Then create a new result, and leave a record another authorized session can understand."},
+    {"id":"18_build","start":260,"text":"The same storage foundation can support creative archives, datasets, decentralized sites, and agent memory. What makes this example unusual is that the production uses the very capability its story is explaining."},
+    {"id":"19_shape","start":275,"text":"An earlier film left a method. Walrus Memory carried the lesson forward. Codex applied it. Now that knowledge has another shape: a new film, built from what survived."},
+    {"id":"20_end","start":289,"text":"The next session does not have to begin from nothing. Give the work somewhere to return to."}
+  ]
+}

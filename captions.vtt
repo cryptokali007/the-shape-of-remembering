@@ -1,0 +1,423 @@
+WEBVTT
+
+NOTE Phrase cues split at punctuation and into groups of at most ten words. Cue times are approximate character-weighted positions across each measured clip span, excluding the 80 ms lead and 180 ms tail. No forced alignment was performed.
+
+01_signal_01
+00:00:04.080 --> 00:00:05.805
+A thought can light up a room.
+
+01_signal_02
+00:00:05.805 --> 00:00:07.299
+But when the session ends,
+
+01_signal_03
+00:00:07.299 --> 00:00:08.104
+what survives?
+
+01_signal_04
+00:00:08.104 --> 00:00:10.519
+The answer matters when the next thing you
+
+01_signal_05
+00:00:10.519 --> 00:00:13.681
+want to build depends on something you already learned.
+
+02_method_01
+00:00:20.080 --> 00:00:23.043
+Our last film left more than a finished movie.
+
+02_method_02
+00:00:23.043 --> 00:00:24.138
+It left a method:
+
+02_method_03
+00:00:24.138 --> 00:00:24.976
+the research,
+
+02_method_04
+00:00:24.976 --> 00:00:25.878
+the decisions,
+
+02_method_05
+00:00:25.878 --> 00:00:29.936
+and the working instructions that made the production possible.
+
+02_method_06
+00:00:29.936 --> 00:00:32.255
+This film begins by recovering them.
+
+03_recall_01
+00:00:35.080 --> 00:00:36.930
+Before building these images,
+
+03_recall_02
+00:00:36.930 --> 00:00:38.460
+I queried Walrus Memory.
+
+03_recall_03
+00:00:38.460 --> 00:00:41.522
+It returned records from our earlier production,
+
+03_recall_04
+00:00:41.522 --> 00:00:45.157
+including its completed result and the reusable workflow.
+
+03_recall_05
+00:00:45.157 --> 00:00:47.262
+These are real retrieved records,
+
+03_recall_06
+00:00:47.262 --> 00:00:49.558
+presented here as selected excerpts.
+
+04_inherit_01
+00:00:50.080 --> 00:00:53.906
+One instruction became the foundation of everything you see:
+
+04_inherit_02
+00:00:53.906 --> 00:00:56.266
+compute the frame from timeline time.
+
+04_inherit_03
+00:00:56.266 --> 00:00:59.072
+The memory did not deliver a working folder.
+
+04_inherit_04
+00:00:59.072 --> 00:01:02.261
+It delivered knowledge I could apply to a new one.
+
+05_storage_01
+00:01:05.080 --> 00:01:08.268
+Underneath that continuity is Walrus Protocol:
+
+05_storage_02
+00:01:08.268 --> 00:01:10.416
+decentralized storage for data.
+
+05_storage_03
+00:01:10.416 --> 00:01:11.317
+A photograph,
+
+05_storage_04
+00:01:11.317 --> 00:01:12.010
+a dataset,
+
+05_storage_05
+00:01:12.010 --> 00:01:12.703
+a website,
+
+05_storage_06
+00:01:12.703 --> 00:01:15.545
+or an encrypted memory can become a blob.
+
+05_storage_07
+00:01:15.545 --> 00:01:18.248
+The content lives across storage nodes,
+
+05_storage_08
+00:01:18.248 --> 00:01:19.565
+off the blockchain.
+
+06_encode_01
+00:01:20.080 --> 00:01:23.787
+RedStuff turns a blob into encoded pieces called slivers.
+
+06_encode_02
+00:01:23.787 --> 00:01:27.234
+Instead of asking every node to keep a complete copy,
+
+06_encode_03
+00:01:27.234 --> 00:01:29.706
+the system distributes the information
+
+06_encode_04
+00:01:29.706 --> 00:01:32.047
+needed to recover the original data.
+
+07_distribute_01
+00:01:35.080 --> 00:01:37.908
+Think of this structure as an explanation,
+
+07_distribute_02
+00:01:37.908 --> 00:01:39.928
+not a map of the live network.
+
+07_distribute_03
+00:01:39.928 --> 00:01:42.420
+Different nodes hold assigned pieces.
+
+07_distribute_04
+00:01:42.420 --> 00:01:45.854
+The design uses redundancy so availability does not
+
+07_distribute_05
+00:01:45.854 --> 00:01:48.615
+depend on one machine holding everything.
+
+08_recover_01
+00:01:50.080 --> 00:01:52.937
+When a reader collects enough valid pieces,
+
+08_recover_02
+00:01:52.937 --> 00:01:55.793
+the blob can be reconstructed and verified.
+
+08_recover_03
+00:01:55.793 --> 00:01:58.450
+RedStuff also supports efficient repair.
+
+08_recover_04
+00:01:58.450 --> 00:02:01.772
+These disappearing nodes illustrate the mechanism;
+
+08_recover_05
+00:02:01.772 --> 00:02:04.562
+we are not staging a live network failure.
+
+09_evidence_01
+00:02:05.080 --> 00:02:06.833
+A blob has an identifier.
+
+09_evidence_02
+00:02:06.833 --> 00:02:10.968
+Storage-node receipts can form an availability certificate.
+
+09_evidence_03
+00:02:10.968 --> 00:02:14.333
+A purchased lifetime defines its storage period.
+
+09_evidence_04
+00:02:14.333 --> 00:02:18.049
+These are concrete details that a reader can inspect.
+
+10_sui_01
+00:02:20.080 --> 00:02:22.464
+Sui coordinates storage resources,
+
+10_sui_02
+00:02:22.464 --> 00:02:23.726
+blob registration,
+
+10_sui_03
+00:02:23.726 --> 00:02:24.988
+and certification.
+
+10_sui_04
+00:02:24.988 --> 00:02:27.371
+Walrus carries the large payloads.
+
+10_sui_05
+00:02:27.371 --> 00:02:33.050
+Together they connect programmable ownership with data applications can retrieve.
+
+11_time_01
+00:02:35.080 --> 00:02:36.953
+A memory still has a lifetime.
+
+11_time_02
+00:02:36.953 --> 00:02:40.199
+Continued availability means maintaining the storage
+
+11_time_03
+00:02:40.199 --> 00:02:42.696
+commitment and extending it when needed.
+
+11_time_04
+00:02:42.696 --> 00:02:45.630
+Persistence is something we operate and verify,
+
+11_time_05
+00:02:45.630 --> 00:02:49.563
+rather than an invitation to forget that infrastructure exists.
+
+12_meaning_01
+00:02:50.080 --> 00:02:51.565
+Walrus preserves bytes.
+
+12_meaning_02
+00:02:51.565 --> 00:02:54.277
+The application gives those bytes meaning.
+
+12_meaning_03
+00:02:54.277 --> 00:02:57.698
+Walrus Memory builds an agent-memory workflow on top:
+
+12_meaning_04
+00:02:57.698 --> 00:02:58.925
+organizing records,
+
+12_meaning_05
+00:02:58.925 --> 00:03:00.668
+finding relevant knowledge,
+
+12_meaning_06
+00:03:00.668 --> 00:03:04.542
+and making it available across authorized apps and sessions.
+
+13_access_01
+00:03:05.080 --> 00:03:08.487
+The managed relayer embeds and encrypts records,
+
+13_access_02
+00:03:08.487 --> 00:03:10.119
+uploads them to Walrus,
+
+13_access_03
+00:03:10.119 --> 00:03:12.320
+and indexes retrieval metadata.
+
+13_access_04
+00:03:12.320 --> 00:03:14.875
+Authorized recall returns plaintext.
+
+13_access_05
+00:03:14.875 --> 00:03:18.849
+The relayer processes plaintext during those operations.
+
+14_clock_01
+00:03:20.080 --> 00:03:22.918
+Now the recovered method becomes visible.
+
+14_clock_02
+00:03:22.918 --> 00:03:23.818
+Every object,
+
+14_clock_03
+00:03:23.818 --> 00:03:24.233
+light,
+
+14_clock_04
+00:03:24.233 --> 00:03:27.486
+and camera position is driven by timeline time.
+
+14_clock_05
+00:03:27.486 --> 00:03:28.455
+Jump backward,
+
+14_clock_06
+00:03:28.455 --> 00:03:29.355
+move forward,
+
+14_clock_07
+00:03:29.355 --> 00:03:30.740
+render out of order:
+
+14_clock_08
+00:03:30.740 --> 00:03:34.062
+the scene is computed from the requested moment.
+
+15_sound_01
+00:03:35.080 --> 00:03:37.736
+The soundtrack was composed for this film.
+
+15_sound_02
+00:03:37.736 --> 00:03:40.772
+Its measured frequency bands drive the geometry.
+
+15_sound_03
+00:03:40.772 --> 00:03:43.049
+The narration was generated locally.
+
+15_sound_04
+00:03:43.049 --> 00:03:46.401
+Stored production knowledge became a new composition,
+
+15_sound_05
+00:03:46.401 --> 00:03:49.563
+with new artwork and an actual rendering pipeline.
+
+16_proof_01
+00:03:50.080 --> 00:03:52.991
+The previous film left a completion record.
+
+16_proof_02
+00:03:52.991 --> 00:03:55.700
+Its blob identifies a memory checkpoint.
+
+16_proof_03
+00:03:55.700 --> 00:03:57.663
+The movie files live locally.
+
+16_proof_04
+00:03:57.663 --> 00:04:00.981
+Keeping those separate makes the evidence honest.
+
+17_continue_01
+00:04:05.080 --> 00:04:06.830
+This is the practical loop.
+
+17_continue_02
+00:04:06.830 --> 00:04:07.868
+Learn something.
+
+17_continue_03
+00:04:07.868 --> 00:04:09.553
+Preserve the useful parts.
+
+17_continue_04
+00:04:09.553 --> 00:04:12.341
+Recover them when the next task needs them.
+
+17_continue_05
+00:04:12.341 --> 00:04:13.962
+Then create a new result,
+
+17_continue_06
+00:04:13.962 --> 00:04:17.917
+and leave a record another authorized session can understand.
+
+18_build_01
+00:04:20.080 --> 00:04:24.136
+The same storage foundation can support creative archives,
+
+18_build_02
+00:04:24.136 --> 00:04:24.765
+datasets,
+
+18_build_03
+00:04:24.765 --> 00:04:26.164
+decentralized sites,
+
+18_build_04
+00:04:26.164 --> 00:04:27.352
+and agent memory.
+
+18_build_05
+00:04:27.352 --> 00:04:30.359
+What makes this example unusual is that the
+
+18_build_06
+00:04:30.359 --> 00:04:34.555
+production uses the very capability its story is explaining.
+
+19_shape_01
+00:04:35.080 --> 00:04:37.083
+An earlier film left a method.
+
+19_shape_02
+00:04:37.083 --> 00:04:39.821
+Walrus Memory carried the lesson forward.
+
+19_shape_03
+00:04:39.821 --> 00:04:40.956
+Codex applied it.
+
+19_shape_04
+00:04:40.956 --> 00:04:43.427
+Now that knowledge has another shape:
+
+19_shape_05
+00:04:43.427 --> 00:04:44.162
+a new film,
+
+19_shape_06
+00:04:44.162 --> 00:04:45.831
+built from what survived.
+
+20_end_01
+00:04:49.080 --> 00:04:52.033
+The next session does not have to begin from nothing.
+
+20_end_02
+00:04:52.033 --> 00:04:54.094
+Give the work somewhere to return to.

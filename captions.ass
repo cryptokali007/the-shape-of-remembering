@@ -1,0 +1,116 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Film,Segoe UI,34,&H00FFFFFF,&H00FFFFFF,&H90080E16,&H90080E16,0,0,0,0,100,100,0,0,3,12,0,2,190,190,105,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.08,0:00:05.80,Film,,0,0,0,,A thought can light up a room.
+Dialogue: 0,0:00:05.80,0:00:07.30,Film,,0,0,0,,But when the session ends,
+Dialogue: 0,0:00:07.30,0:00:08.10,Film,,0,0,0,,what survives?
+Dialogue: 0,0:00:08.10,0:00:10.52,Film,,0,0,0,,The answer matters when the next thing you
+Dialogue: 0,0:00:10.52,0:00:13.68,Film,,0,0,0,,want to build depends on something you already learned.
+Dialogue: 0,0:00:20.08,0:00:23.04,Film,,0,0,0,,Our last film left more than a finished movie.
+Dialogue: 0,0:00:23.04,0:00:24.14,Film,,0,0,0,,It left a method:
+Dialogue: 0,0:00:24.14,0:00:24.98,Film,,0,0,0,,the research,
+Dialogue: 0,0:00:24.98,0:00:25.88,Film,,0,0,0,,the decisions,
+Dialogue: 0,0:00:25.88,0:00:29.94,Film,,0,0,0,,and the working instructions that made the production possible.
+Dialogue: 0,0:00:29.94,0:00:32.26,Film,,0,0,0,,This film begins by recovering them.
+Dialogue: 0,0:00:35.08,0:00:36.93,Film,,0,0,0,,Before building these images,
+Dialogue: 0,0:00:36.93,0:00:38.46,Film,,0,0,0,,I queried Walrus Memory.
+Dialogue: 0,0:00:38.46,0:00:41.52,Film,,0,0,0,,It returned records from our earlier production,
+Dialogue: 0,0:00:41.52,0:00:45.16,Film,,0,0,0,,including its completed result and the reusable workflow.
+Dialogue: 0,0:00:45.16,0:00:47.26,Film,,0,0,0,,These are real retrieved records,
+Dialogue: 0,0:00:47.26,0:00:49.56,Film,,0,0,0,,presented here as selected excerpts.
+Dialogue: 0,0:00:50.08,0:00:53.91,Film,,0,0,0,,One instruction became the foundation of everything you see:
+Dialogue: 0,0:00:53.91,0:00:56.27,Film,,0,0,0,,compute the frame from timeline time.
+Dialogue: 0,0:00:56.27,0:00:59.07,Film,,0,0,0,,The memory did not deliver a working folder.
+Dialogue: 0,0:00:59.07,0:01:02.26,Film,,0,0,0,,It delivered knowledge I could apply to a new one.
+Dialogue: 0,0:01:05.08,0:01:08.27,Film,,0,0,0,,Underneath that continuity is Walrus Protocol:
+Dialogue: 0,0:01:08.27,0:01:10.42,Film,,0,0,0,,decentralized storage for data.
+Dialogue: 0,0:01:10.42,0:01:11.32,Film,,0,0,0,,A photograph,
+Dialogue: 0,0:01:11.32,0:01:12.01,Film,,0,0,0,,a dataset,
+Dialogue: 0,0:01:12.01,0:01:12.70,Film,,0,0,0,,a website,
+Dialogue: 0,0:01:12.70,0:01:15.54,Film,,0,0,0,,or an encrypted memory can become a blob.
+Dialogue: 0,0:01:15.54,0:01:18.25,Film,,0,0,0,,The content lives across storage nodes,
+Dialogue: 0,0:01:18.25,0:01:19.56,Film,,0,0,0,,off the blockchain.
+Dialogue: 0,0:01:20.08,0:01:23.79,Film,,0,0,0,,RedStuff turns a blob into encoded pieces called slivers.
+Dialogue: 0,0:01:23.79,0:01:27.23,Film,,0,0,0,,Instead of asking every node to keep a complete copy,
+Dialogue: 0,0:01:27.23,0:01:29.71,Film,,0,0,0,,the system distributes the information
+Dialogue: 0,0:01:29.71,0:01:32.05,Film,,0,0,0,,needed to recover the original data.
+Dialogue: 0,0:01:35.08,0:01:37.91,Film,,0,0,0,,Think of this structure as an explanation,
+Dialogue: 0,0:01:37.91,0:01:39.93,Film,,0,0,0,,not a map of the live network.
+Dialogue: 0,0:01:39.93,0:01:42.42,Film,,0,0,0,,Different nodes hold assigned pieces.
+Dialogue: 0,0:01:42.42,0:01:45.85,Film,,0,0,0,,The design uses redundancy so availability does not
+Dialogue: 0,0:01:45.85,0:01:48.62,Film,,0,0,0,,depend on one machine holding everything.
+Dialogue: 0,0:01:50.08,0:01:52.94,Film,,0,0,0,,When a reader collects enough valid pieces,
+Dialogue: 0,0:01:52.94,0:01:55.79,Film,,0,0,0,,the blob can be reconstructed and verified.
+Dialogue: 0,0:01:55.79,0:01:58.45,Film,,0,0,0,,RedStuff also supports efficient repair.
+Dialogue: 0,0:01:58.45,0:02:01.77,Film,,0,0,0,,These disappearing nodes illustrate the mechanism;
+Dialogue: 0,0:02:01.77,0:02:04.56,Film,,0,0,0,,we are not staging a live network failure.
+Dialogue: 0,0:02:05.08,0:02:06.83,Film,,0,0,0,,A blob has an identifier.
+Dialogue: 0,0:02:06.83,0:02:10.97,Film,,0,0,0,,Storage-node receipts can form an availability certificate.
+Dialogue: 0,0:02:10.97,0:02:14.33,Film,,0,0,0,,A purchased lifetime defines its storage period.
+Dialogue: 0,0:02:14.33,0:02:18.05,Film,,0,0,0,,These are concrete details that a reader can inspect.
+Dialogue: 0,0:02:20.08,0:02:22.46,Film,,0,0,0,,Sui coordinates storage resources,
+Dialogue: 0,0:02:22.46,0:02:23.73,Film,,0,0,0,,blob registration,
+Dialogue: 0,0:02:23.73,0:02:24.99,Film,,0,0,0,,and certification.
+Dialogue: 0,0:02:24.99,0:02:27.37,Film,,0,0,0,,Walrus carries the large payloads.
+Dialogue: 0,0:02:27.37,0:02:33.05,Film,,0,0,0,,Together they connect programmable ownership with data applications can retrieve.
+Dialogue: 0,0:02:35.08,0:02:36.95,Film,,0,0,0,,A memory still has a lifetime.
+Dialogue: 0,0:02:36.95,0:02:40.20,Film,,0,0,0,,Continued availability means maintaining the storage
+Dialogue: 0,0:02:40.20,0:02:42.70,Film,,0,0,0,,commitment and extending it when needed.
+Dialogue: 0,0:02:42.70,0:02:45.63,Film,,0,0,0,,Persistence is something we operate and verify,
+Dialogue: 0,0:02:45.63,0:02:49.56,Film,,0,0,0,,rather than an invitation to forget that infrastructure exists.
+Dialogue: 0,0:02:50.08,0:02:51.56,Film,,0,0,0,,Walrus preserves bytes.
+Dialogue: 0,0:02:51.56,0:02:54.28,Film,,0,0,0,,The application gives those bytes meaning.
+Dialogue: 0,0:02:54.28,0:02:57.70,Film,,0,0,0,,Walrus Memory builds an agent-memory workflow on top:
+Dialogue: 0,0:02:57.70,0:02:58.92,Film,,0,0,0,,organizing records,
+Dialogue: 0,0:02:58.92,0:03:00.67,Film,,0,0,0,,finding relevant knowledge,
+Dialogue: 0,0:03:00.67,0:03:04.54,Film,,0,0,0,,and making it available across authorized apps and sessions.
+Dialogue: 0,0:03:05.08,0:03:08.49,Film,,0,0,0,,The managed relayer embeds and encrypts records,
+Dialogue: 0,0:03:08.49,0:03:10.12,Film,,0,0,0,,uploads them to Walrus,
+Dialogue: 0,0:03:10.12,0:03:12.32,Film,,0,0,0,,and indexes retrieval metadata.
+Dialogue: 0,0:03:12.32,0:03:14.88,Film,,0,0,0,,Authorized recall returns plaintext.
+Dialogue: 0,0:03:14.88,0:03:18.85,Film,,0,0,0,,The relayer processes plaintext during those operations.
+Dialogue: 0,0:03:20.08,0:03:22.92,Film,,0,0,0,,Now the recovered method becomes visible.
+Dialogue: 0,0:03:22.92,0:03:23.82,Film,,0,0,0,,Every object,
+Dialogue: 0,0:03:23.82,0:03:24.23,Film,,0,0,0,,light,
+Dialogue: 0,0:03:24.23,0:03:27.49,Film,,0,0,0,,and camera position is driven by timeline time.
+Dialogue: 0,0:03:27.49,0:03:28.46,Film,,0,0,0,,Jump backward,
+Dialogue: 0,0:03:28.46,0:03:29.36,Film,,0,0,0,,move forward,
+Dialogue: 0,0:03:29.36,0:03:30.74,Film,,0,0,0,,render out of order:
+Dialogue: 0,0:03:30.74,0:03:34.06,Film,,0,0,0,,the scene is computed from the requested moment.
+Dialogue: 0,0:03:35.08,0:03:37.74,Film,,0,0,0,,The soundtrack was composed for this film.
+Dialogue: 0,0:03:37.74,0:03:40.77,Film,,0,0,0,,Its measured frequency bands drive the geometry.
+Dialogue: 0,0:03:40.77,0:03:43.05,Film,,0,0,0,,The narration was generated locally.
+Dialogue: 0,0:03:43.05,0:03:46.40,Film,,0,0,0,,Stored production knowledge became a new composition,
+Dialogue: 0,0:03:46.40,0:03:49.56,Film,,0,0,0,,with new artwork and an actual rendering pipeline.
+Dialogue: 0,0:03:50.08,0:03:52.99,Film,,0,0,0,,The previous film left a completion record.
+Dialogue: 0,0:03:52.99,0:03:55.70,Film,,0,0,0,,Its blob identifies a memory checkpoint.
+Dialogue: 0,0:03:55.70,0:03:57.66,Film,,0,0,0,,The movie files live locally.
+Dialogue: 0,0:03:57.66,0:04:00.98,Film,,0,0,0,,Keeping those separate makes the evidence honest.
+Dialogue: 0,0:04:05.08,0:04:06.83,Film,,0,0,0,,This is the practical loop.
+Dialogue: 0,0:04:06.83,0:04:07.87,Film,,0,0,0,,Learn something.
+Dialogue: 0,0:04:07.87,0:04:09.55,Film,,0,0,0,,Preserve the useful parts.
+Dialogue: 0,0:04:09.55,0:04:12.34,Film,,0,0,0,,Recover them when the next task needs them.
+Dialogue: 0,0:04:12.34,0:04:13.96,Film,,0,0,0,,Then create a new result,
+Dialogue: 0,0:04:13.96,0:04:17.92,Film,,0,0,0,,and leave a record another authorized session can understand.
+Dialogue: 0,0:04:20.08,0:04:24.14,Film,,0,0,0,,The same storage foundation can support creative archives,
+Dialogue: 0,0:04:24.14,0:04:24.76,Film,,0,0,0,,datasets,
+Dialogue: 0,0:04:24.76,0:04:26.16,Film,,0,0,0,,decentralized sites,
+Dialogue: 0,0:04:26.16,0:04:27.35,Film,,0,0,0,,and agent memory.
+Dialogue: 0,0:04:27.35,0:04:30.36,Film,,0,0,0,,What makes this example unusual is that the
+Dialogue: 0,0:04:30.36,0:04:34.56,Film,,0,0,0,,production uses the very capability its story is explaining.
+Dialogue: 0,0:04:35.08,0:04:37.08,Film,,0,0,0,,An earlier film left a method.
+Dialogue: 0,0:04:37.08,0:04:39.82,Film,,0,0,0,,Walrus Memory carried the lesson forward.
+Dialogue: 0,0:04:39.82,0:04:40.96,Film,,0,0,0,,Codex applied it.
+Dialogue: 0,0:04:40.96,0:04:43.43,Film,,0,0,0,,Now that knowledge has another shape:
+Dialogue: 0,0:04:43.43,0:04:44.16,Film,,0,0,0,,a new film,
+Dialogue: 0,0:04:44.16,0:04:45.83,Film,,0,0,0,,built from what survived.
+Dialogue: 0,0:04:49.08,0:04:52.03,Film,,0,0,0,,The next session does not have to begin from nothing.
+Dialogue: 0,0:04:52.03,0:04:54.09,Film,,0,0,0,,Give the work somewhere to return to.
